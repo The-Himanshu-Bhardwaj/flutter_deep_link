@@ -26,7 +26,7 @@ void handleDeepLink(Uri deepLink) {
       final orderNumber = deepLink.pathSegments[1];
       final customerCode = deepLink.pathSegments[2];
       debugPrint('order number is --->>> $orderNumber');
-      debugPrint('code is --->>> $customerCode');
+      debugPrint('code is ---->>> $customerCode');
       number = orderNumber;
       code = customerCode;
       // Handle the order number and navigate to the appropriate screen
